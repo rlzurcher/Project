@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300&display=swap');
+
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav-bar {
+    height: 77px;
+    width: 100%;
+    background-color: #E8D7BD;
+    float: left;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 77px;
+}
+
+.nav-list {
+    float: right;
+    font-family: 'Amatic SC', cursive;
+}
+
+.list-iteam {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(150, 130, 111);   
+}
+
+.nav-list a{
+    height: 20px;
+    width: 80px;
+    border: thin solid #AE8E75;
+    border-radius: 25px;
+    box-shadow: 3px 3px rgb(150, 130, 111);
+    text-align: center;
+    font-size: 23px;
+    font-style: bold;
+    padding: 6px;
+    margin-right: 26px;
+}
+
+.list-iteam a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #5C334D;
+}
+
+/* ------main--------- */
+
+.main {
+    height: 932px;
+    width: 100%;
+    top: 145px;
+    display: inline-block;
+    background-image: url('../img/crownhedgiecrop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 77px;
+}
+
+.main-text {
+    height: 84px;
+    width: 207px;
+    background-color:#f8f3ed;
+    border: rgb(150, 130, 111);
+    border-style: dotted;
+    position: absolute;
+    top: 123px;
+    left: 824px;
+}
+
+/* ----------section styles---------------- */
+
+.title {
+    font-family: 'Amatic SC', cursive;  
+    color: rgb(150, 130, 111); 
+    text-align: center;
+    font-size: 70px;
+    margin: 0px;
+}
+
+/* .hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    top
+} */
+
+.home-section {
+    height: 500px;
+    width: 100%;
+}
+
+.col {
+    height: 450px;
+    width: 46%;
+    border: dotted;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.hedgehogs {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.sec-text p {
+    text-align: center;
+    margin: 89px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* ------footer--------- */
+
+.footer {
+    height: 77px;
+    width: 100%;
+    background-color: #E8D7BD;
+}
+
+
+.button-input, .social, .copy {
+    width: 33%;
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+
+/* .button-input, .social {
+    margin-top: 31px;
+} */
+
+.button-input {
+    padding:7px;
+    border-radius: 4px;
+    margin-top: 24px
+}
+
+.input {
+    height: 20px;
+    width: 120px;
+}
+
+.fab {
+    font-size: 30px;
+    color: #00acee;
+    margin-top: 19px;
+    padding: 8px;
+
+}
+
+.copy {
+    /* display: inline; */
+    margin-top: 17px;
+}
+
+/* --------------contact ____-------------- */
+.contact-main {
+    height: 580px;
+    width: 100%;
+    border: 3px dotted black;
+    margin-top: 80px;
+}
+
+.contact-sec {
+    height: 450px;
+    width: 48%;
+    display: block;
+    margin: auto;
+    float: left;
+}
+
+
+

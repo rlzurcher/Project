@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300&display=swap');
+
+.aboutmain{
+    height:720px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.sweater {
+    display: block;
+    margin: auto;
+    height: 298px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.aboutpg {
+    width: 33%;
+    height: 700px;
+    float: left;
+    border: 3px dotted black;
+}
+
+.aboutpg p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.audio {
+    display: block;
+    margin: auto;
+    padding: 40px;
+}
+
+.chair {
+    display: block;
+    margin: auto;
+    height: 445px;
+}
+
+iframe {
+    display: block;
+    margin-top: 20px;
+}
